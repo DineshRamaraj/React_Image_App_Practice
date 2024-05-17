@@ -1,12 +1,18 @@
 .main-container{
+    padding: 30px;
+}
 
+.result-value{
+    padding-left: 20px;
+    font-family: "Roboto";
+    font-size: 16px;
 }
 
 .image-container{
     display: grid;
     grid-template-columns: 100%;
+    padding: 10px;
     gap: 5px;
-    padding: 20px;
     list-style: none;
 }
 
@@ -36,3 +42,18 @@
 }
 
 
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.prev-button, .next-button{
+    font-family: "Roboto";
+    font-size: 14px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border:1px solid black;
+}
